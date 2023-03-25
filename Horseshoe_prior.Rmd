@@ -1,0 +1,65 @@
+---
+title: <span style="font-size:140%"> PRIORI HORSESHOE </span>
+
+author: <span style="font-size:70%; color:grey"> João Lucas Simon </span> <br> <span style="font-size:70%; color:grey"> Giovanna Marques Vidor </span> <br> <span style="font-size:70%; color:grey"> Geanine de Carvalho Henriques </span> <br> <span style="font-size:40%; color:grey"> 27 de Abril de 2023 </span>
+
+output: 
+    xaringan::moon_reader:
+      nature:
+        autoplay: 30000
+---
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Pacotes
+library(knitr)
+
+```
+
+```{r setup, include=FALSE}
+opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+
+# <h1 style="font-size:350%; color:Black">**Introdução**</h1>
+<style>
+body {
+text-align: justify}
+</style>
+
+ - As distribuições a priori existentes, como a distribuição a priori Laplace, não são capazes de selecionar um subconjunto de variáveis importantes de forma eficiente em problemas com muitas variáveis. Além disso, essas distribuições não possuem uma cauda pesada, o que significa que elas têm dificuldade em modelar muitas variáveis ao mesmo tempo.
+ 
+--
+
+- A distribuição a priori Horseshoe foi criada para lidar com a seleção de variáveis em modelos de regressão linear com muitas variáveis, uma vez que as distribuições a priori existentes não são adequadas para lidar com essa situação. Esses modelos com muitas variáveis são comuns em muitas áreas, como genômica, análise de dados financeiros e neuroimagem.
+
+--
+
+- Assim, a distribuição a priori Horseshoe foi criada como uma alternativa para resolver esses problemas, promovendo a seleção de variáveis importantes e redução de dimensionalidade de forma eficiente.
+
+---
+
+# <h1 style="color:DarkRed"> Autor </h1>
+
+Interface para facilitar o uso da linguagem <c class="blue3"> R</c>.
+
+- Intuitivo;
+
+- Windows, Linux e IOS - MAC.
+
+Links para as instalações:
+
+- https://cran.r-project.org/ (R)
+
+- https://www.rstudio.com/products/rstudio/ (RStudio)
+
+
+```{r, echo=FALSE, out.width='40%', fig.align = "center"}
+
+#include_graphics('https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png')
+
+```
+
+---
