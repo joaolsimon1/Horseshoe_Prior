@@ -29,6 +29,8 @@ body {
 text-align: justify}
 </style>
 
+Mudou?
+
  - As distribuições a priori existentes, como a distribuição a priori Laplace, não são capazes de selecionar um subconjunto de variáveis importantes de forma eficiente em problemas com muitas variáveis. Além disso, essas distribuições não possuem uma cauda pesada, o que significa que elas têm dificuldade em modelar muitas variáveis ao mesmo tempo.
  
 --
